@@ -17,10 +17,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Courgette', serif;
   font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
+  text-transform: capitalize;
+  color: #808080;
+}
+#email{
+  text-transform: lowercase
+}
+
+
+.nav-link {
+  font-family: "Bodoni bd BT";
+  text-transform: capitalize;
 }
 
 h1 {
@@ -33,7 +42,7 @@ h2 {
 }
 
 .subheading {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
@@ -54,6 +63,10 @@ h2 {
 .list-icons {
   font-size: 3rem;
 }
+hr{
+  background-color: white;
+  margin-top: 150px
+}
 
 .list-icons .list-inline-item i:hover {
   color: black;
@@ -61,7 +74,7 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 @media (min-width: 992px) {
