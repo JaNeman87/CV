@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Courgette', serif;
+  /* font-family: 'Courgette', serif; */
   font-weight: 700;
   text-transform: capitalize;
   color: #808080;
@@ -28,7 +28,7 @@ h6 {
 
 
 .nav-link {
-  font-family: "Bodoni bd BT";
+  /* font-family: "Bodoni bd BT"; */
   text-transform: capitalize;
 }
 
